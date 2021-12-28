@@ -1,0 +1,51 @@
+/* El fondo que cambia de color: */
+.background {
+    height: 85vh;
+    padding-top: 34vh;
+}
+
+/* La tarjeta donde esta el titulo y el selector de colores: */
+.pickerCard {
+    height: 17vh;
+    width: 30vw;
+    background: white;
+    margin: auto;
+    border-radius: 3px;
+    position: relative;
+}
+
+/* El titulo: */
+.pickerTitle {
+    font-size: 4vh;
+    padding-top: 2vh;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* El conjunto del selector de colores y su label: */
+.picker {
+    position: absolute; 
+    bottom: 0;
+}
+
+/* El selector de colores: */
+.pickerInput {
+    margin-bottom: 2vh;
+    margin-right: 25px;
+    margin-left: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* El label del selector: */
+.pickerText {
+    margin-bottom: 2vh;
+    margin-right: 20px;
+    padding: 7.5px;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    display: inline-block;
+}
