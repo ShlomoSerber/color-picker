@@ -4,7 +4,7 @@ import "./Footer.css"
 function Footer() {
     return (
         <div className="footer">
-            <p className="footerText">Hecho por programa desde tu casa</p>
+            <p className="footerText">Hecho por Shlomo Serber</p>
         </div>
     );
 }
